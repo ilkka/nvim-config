@@ -3,7 +3,13 @@ return {
   {
     "nvim-treesitter/nvim-treesitter",
     config = function(_, opts)
-      require("nvim-treesitter.install").compilers = { "zig" }
+      local compiler
+      if vim.fn.has("win32") == 1 then
+        compiler = "zig"
+      else
+        compiler = "gcc"
+      end
+      require("nvim-treesitter.install").compilers = { compiler }
       require("nvim-treesitter.configs").setup(opts)
     end,
     opts = function(_, opts)
