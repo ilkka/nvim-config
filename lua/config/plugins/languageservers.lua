@@ -1,0 +1,6 @@
+vim.lsp.enable("emmylua_ls")
+vim.lsp.enable("kotlin_lsp")
+vim.lsp.enable("yamlls")
+vim.lsp.enable("helm_ls")
+vim.lsp.enable("marksman")
+vim.lsp.enable("gradle_ls")

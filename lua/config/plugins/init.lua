@@ -12,6 +12,10 @@ vim.pack.add({
     "https://github.com/HotThoughts/jjui.nvim",
     -- Run jj commands with :J
     "https://github.com/NicolasGB/jj.nvim",
+    -- LSP configs
+    "https://github.com/neovim/nvim-lspconfig",
+    -- Mason
+    "https://github.com/mason-org/mason.nvim",
 })
 
 -- Run setup for all the individual plugins
@@ -21,4 +25,6 @@ require("config.plugins.treesitter")
 require("config.plugins.treesitter-context")
 require("config.plugins.jjui")
 require("config.plugins.jj")
-
+require("config.plugins.lspconfig")
+require("config.plugins.mason")
+require("config.plugins.languageservers")
