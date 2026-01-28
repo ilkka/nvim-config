@@ -16,6 +16,8 @@ vim.pack.add({
     "https://github.com/neovim/nvim-lspconfig",
     -- Mason
     "https://github.com/mason-org/mason.nvim",
+    -- Hopefully highlight for helm stuff
+    "https://github.com/towolf/vim-helm",
 })
 
 -- Run setup for all the individual plugins
