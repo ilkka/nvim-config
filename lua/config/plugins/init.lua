@@ -22,6 +22,8 @@ vim.pack.add({
     "https://github.com/dmtrKovalenko/fff.nvim",
     -- Surround things
     "https://github.com/kylechui/nvim-surround",
+    -- Jump to things quickly
+    "https://github.com/folke/flash.nvim",
 })
 
 -- Run setup for all the individual plugins
@@ -35,3 +37,4 @@ require("config.plugins.lspconfig")
 require("config.plugins.mason")
 require("config.plugins.languageservers")
 require("config.plugins.surround")
+require("config.plugins.flash")

@@ -8,6 +8,10 @@
       "rev": "0523fe39ffc59373de0648ba636705d35a6fdfc2",
       "src": "https://github.com/dmtrKovalenko/fff.nvim"
     },
+    "flash.nvim": {
+      "rev": "fcea7ff883235d9024dc41e638f164a450c14ca2",
+      "src": "https://github.com/folke/flash.nvim"
+    },
     "jj.nvim": {
       "rev": "463fd0876aa2e3e991d2453e24557aa956d974d9",
       "src": "https://github.com/NicolasGB/jj.nvim"
