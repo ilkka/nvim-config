@@ -24,6 +24,8 @@ vim.pack.add({
     "https://github.com/kylechui/nvim-surround",
     -- Jump to things quickly
     "https://github.com/folke/flash.nvim",
+    -- Scala
+    "https://github.com/scalameta/nvim-metals",
 })
 
 -- Run setup for all the individual plugins
@@ -38,3 +40,4 @@ require("config.plugins.mason")
 require("config.plugins.languageservers")
 require("config.plugins.surround")
 require("config.plugins.flash")
+require("config.plugins.metals")

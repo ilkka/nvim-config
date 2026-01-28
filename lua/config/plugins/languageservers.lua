@@ -5,3 +5,4 @@ vim.lsp.enable("helm_ls")
 vim.lsp.enable("marksman")
 vim.lsp.enable("gradle_ls")
 vim.lsp.enable("golangci_lint_ls")
+-- NO SCALA HERE. I'm doing that with nvim-metals.

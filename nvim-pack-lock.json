@@ -32,6 +32,10 @@
       "rev": "ff9c0af8f9b2097fdd2695058db7e04c193908aa",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
+    "nvim-metals": {
+      "rev": "7ed47cd3095508e80423e30922385d5b9988f9d6",
+      "src": "https://github.com/scalameta/nvim-metals"
+    },
     "nvim-surround": {
       "rev": "1098d7b3c34adcfa7feb3289ee434529abd4afd1",
       "src": "https://github.com/kylechui/nvim-surround"
