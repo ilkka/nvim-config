@@ -18,8 +18,10 @@ vim.pack.add({
     "https://github.com/mason-org/mason.nvim",
     -- Hopefully highlight for helm stuff
     "https://github.com/towolf/vim-helm",
-    --- Fuzzy file finder
+    -- Fuzzy file finder
     "https://github.com/dmtrKovalenko/fff.nvim",
+    -- Surround things
+    "https://github.com/kylechui/nvim-surround",
 })
 
 -- Run setup for all the individual plugins
@@ -32,3 +34,4 @@ require("config.plugins.jj")
 require("config.plugins.lspconfig")
 require("config.plugins.mason")
 require("config.plugins.languageservers")
+require("config.plugins.surround")

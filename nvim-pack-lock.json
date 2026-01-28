@@ -1,5 +1,9 @@
 {
   "plugins": {
+    "eyeliner.nvim": {
+      "rev": "8f197eb30cecdf4c2cc9988a5eecc6bc34c0c7d6",
+      "src": "https://github.com/jinh0/eyeliner.nvim"
+    },
     "fff.nvim": {
       "rev": "0523fe39ffc59373de0648ba636705d35a6fdfc2",
       "src": "https://github.com/dmtrKovalenko/fff.nvim"
@@ -23,6 +27,10 @@
     "nvim-lspconfig": {
       "rev": "ff9c0af8f9b2097fdd2695058db7e04c193908aa",
       "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "nvim-surround": {
+      "rev": "1098d7b3c34adcfa7feb3289ee434529abd4afd1",
+      "src": "https://github.com/kylechui/nvim-surround"
     },
     "nvim-treesitter": {
       "rev": "f8bbc3177d929dc86e272c41cc15219f0a7aa1ac",
