@@ -18,6 +18,8 @@ vim.pack.add({
     "https://github.com/mason-org/mason.nvim",
     -- Hopefully highlight for helm stuff
     "https://github.com/towolf/vim-helm",
+    --- Fuzzy file finder
+    "https://github.com/dmtrKovalenko/fff.nvim",
 })
 
 -- Run setup for all the individual plugins
