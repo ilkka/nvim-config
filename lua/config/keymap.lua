@@ -2,6 +2,15 @@
 -- keymap
 --
 
+-- neovim QoL
+
+-- move lines up or down
+vim.keymap.set("v", "J", ":move '>+1<cr>gv=gv", { desc = "Move selected line(s) down", silent = true })
+vim.keymap.set("v", "K", ":move '>-2<cr>gv=gv", { desc = "Move selected line(s) up", silent = true })
+-- keep selection on indents
+vim.keymap.set("v", "<", "<gv", { desc = "Outdent selection" })
+vim.keymap.set("v", ">", ">gv", { desc = "Indent selection" })
+
 -- fff
 vim.keymap.set(
     'n',
