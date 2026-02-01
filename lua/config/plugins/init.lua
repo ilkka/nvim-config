@@ -30,8 +30,10 @@ vim.pack.add({
     "https://github.com/nvim-telescope/telescope-fzy-native.nvim",
     -- lua function library required for telescope
     "https://github.com/nvim-lua/plenary.nvim",
-    -- telescope for ... maybe everything except files? I don't know if fff is all that great.
+    -- telescope for finding things
     "https://github.com/nvim-telescope/telescope.nvim",
+    -- formatting
+    "https://github.com/stevearc/conform.nvim",
 })
 
 -- Run setup for all the individual plugins
@@ -49,3 +51,4 @@ require("config.plugins.flash")
 require("config.plugins.metals")
 require("config.plugins.nvim-web-devicons")
 require("config.plugins.telescope")
+require("config.plugins.conform")
