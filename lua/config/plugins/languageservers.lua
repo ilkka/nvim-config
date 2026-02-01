@@ -7,4 +7,5 @@ vim.lsp.enable("gradle_ls")
 vim.lsp.enable("golangci_lint_ls")
 vim.lsp.enable("clangd")
 vim.lsp.enable("neocmake")
+vim.lsp.enable("beancount")
 -- NO SCALA HERE. I'm doing that with nvim-metals.

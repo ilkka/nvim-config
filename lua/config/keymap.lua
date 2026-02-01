@@ -11,20 +11,15 @@ vim.keymap.set("v", "K", ":move '>-2<cr>gv=gv", { desc = "Move selected line(s) 
 vim.keymap.set("v", "<", "<gv", { desc = "Outdent selection" })
 vim.keymap.set("v", ">", ">gv", { desc = "Indent selection" })
 
--- fff
-vim.keymap.set(
-    'n',
-    '<leader>ff',
-    function() require('fff').find_files() end,
-    { desc = 'FFFind files' }
-)
-
 -- flash
 vim.keymap.set({ "n", "x", "o" }, 's', function() require("flash").jump() end, { desc = "Flash" })
-vim.keymap.set({ "n", "x", "o" }, 'S', function() require("flash").treesitter() end, { desc = "Flash Treesitter" })
+vim.keymap.set({ "n", "x", "o" }, '<c-s>', function() require("flash").treesitter() end, { desc = "Flash Treesitter" })
 vim.keymap.set("o", 'r', function() require("flash").remote() end, { desc = "Remote Flash" })
 vim.keymap.set({ "o", "x" }, "R", function() require("flash").treesitter_search() end, { desc = "Treesitter Search" })
 vim.keymap.set({ "c" }, "<c-s>", function() require("flash").toggle() end, { desc = "Toggle Flash Search" })
 
--- bufswi
-vim.keymap.set({'n'}, '<leader><tab>', function() require("bufswi").open() end, { desc = "Bufswi" })
+-- Telescope
+vim.keymap.set('n', '<leader>ff', function() require('telescope.builtin').find_files() end, { desc = 'Telescope find files' })
+vim.keymap.set('n', '<leader>fg', function() require('telescope.builtin').live_grep() end, { desc = 'Telescope live grep' })
+vim.keymap.set('n', '<leader>fb', function() require('telescope.builtin').buffers() end, { desc = 'Telescope buffers' })
+vim.keymap.set('n', '<leader>fh', function() require('telescope.builtin').help_tags() end, { desc = 'Telescope help tags' })
