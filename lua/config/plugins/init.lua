@@ -34,6 +34,8 @@ vim.pack.add({
     "https://github.com/nvim-telescope/telescope.nvim",
     -- formatting
     "https://github.com/stevearc/conform.nvim",
+    -- compiling with asynchronicity etc etc
+    "https://github.com/tpope/vim-dispatch",
 })
 
 -- Run setup for all the individual plugins
