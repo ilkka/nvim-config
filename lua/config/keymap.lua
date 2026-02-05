@@ -10,6 +10,11 @@ vim.keymap.set("v", "K", ":move '>-2<cr>gv=gv", { desc = "Move selected line(s) 
 -- keep selection on indents
 vim.keymap.set("v", "<", "<gv", { desc = "Outdent selection" })
 vim.keymap.set("v", ">", ">gv", { desc = "Indent selection" })
+-- toggle scrolloff
+vim.keymap.set({"n"}, "zS", function()
+    local enable = vim.opt_local.scrolloff:get() == 0
+    vim.opt_local.scrolloff = enable and 8 or 0
+end, { desc = "Toggle scrolloff" })
 
 -- flash
 vim.keymap.set({ "n", "x", "o" }, 's', function() require("flash").jump() end, { desc = "Flash" })
