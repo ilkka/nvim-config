@@ -36,6 +36,8 @@ vim.pack.add({
     "https://github.com/stevearc/conform.nvim",
     -- compiling with asynchronicity etc etc
     "https://github.com/tpope/vim-dispatch",
+    -- which key does what?
+    "https://github.com/folke/which-key.nvim",
 })
 
 -- Run setup for all the individual plugins
@@ -54,3 +56,4 @@ require("config.plugins.metals")
 require("config.plugins.nvim-web-devicons")
 require("config.plugins.telescope")
 require("config.plugins.conform")
+require("config.plugins.which-key")
