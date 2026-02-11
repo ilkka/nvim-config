@@ -8,5 +8,6 @@ vim.lsp.enable("helm_ls")
 vim.lsp.enable("kotlin_lsp")
 vim.lsp.enable("marksman")
 vim.lsp.enable("neocmake")
+vim.lsp.enable("rust_analyzer")
 vim.lsp.enable("yamlls")
 -- NO SCALA HERE. I'm doing that with nvim-metals.
