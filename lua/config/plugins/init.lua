@@ -38,6 +38,10 @@ vim.pack.add({
     "https://github.com/tpope/vim-dispatch",
     -- which key does what?
     "https://github.com/folke/which-key.nvim",
+    -- completion
+    "https://github.com/saghen/blink.cmp",
+    -- optional snippets dependency for blink
+    "https://github.com/rafamadriz/friendly-snippets",
 })
 
 -- Run setup for all the individual plugins
@@ -57,3 +61,4 @@ require("config.plugins.nvim-web-devicons")
 require("config.plugins.telescope")
 require("config.plugins.conform")
 require("config.plugins.which-key")
+require("config.plugins.blink")

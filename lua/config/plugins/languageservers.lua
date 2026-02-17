@@ -10,4 +10,5 @@ vim.lsp.enable("marksman")
 vim.lsp.enable("neocmake")
 vim.lsp.enable("rust_analyzer")
 vim.lsp.enable("yamlls")
+vim.lsp.enable("docker_language_server")
 -- NO SCALA HERE. I'm doing that with nvim-metals.
