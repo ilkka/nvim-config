@@ -42,6 +42,8 @@ vim.pack.add({
     "https://github.com/saghen/blink.cmp",
     -- optional snippets dependency for blink
     "https://github.com/rafamadriz/friendly-snippets",
+    -- multicursor funtimes
+    "https://github.com/jake-stewart/multicursor.nvim",
 })
 
 -- Run setup for all the individual plugins
@@ -62,3 +64,4 @@ require("config.plugins.telescope")
 require("config.plugins.conform")
 require("config.plugins.which-key")
 require("config.plugins.blink")
+require("config.plugins.multicursor")

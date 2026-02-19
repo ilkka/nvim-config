@@ -32,6 +32,10 @@
       "rev": "44d1e90e1f66e077268191e3ee9d2ac97cc18e65",
       "src": "https://github.com/mason-org/mason.nvim"
     },
+    "multicursor.nvim": {
+      "rev": "630dd29dd696bc977cb81d7dd2fa6bb280f60fc4",
+      "src": "https://github.com/jake-stewart/multicursor.nvim"
+    },
     "nvim-lspconfig": {
       "rev": "ff9c0af8f9b2097fdd2695058db7e04c193908aa",
       "src": "https://github.com/neovim/nvim-lspconfig"

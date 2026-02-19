@@ -169,3 +169,5 @@ require("which-key").setup({
   },
   debug = false, -- enable wk.log in the current directory
 })
+
+vim.keymap.set('n', '<leader>?', function() require('which-key').show({ global = false }) end, { desc = 'Show which-key' })

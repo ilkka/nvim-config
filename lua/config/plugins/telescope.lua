@@ -1,4 +1,5 @@
-require("telescope").setup({
+local telescope = require("telescope")
+telescope.setup({
   defaults = {
     -- Default configuration for telescope goes here:
     -- config_key = value,
@@ -29,4 +30,9 @@ require("telescope").setup({
   }
 })
 
-require("telescope").load_extension("fzy_native")
+telescope.load_extension("fzy_native")
+
+vim.keymap.set('n', '<leader>ff', function() require('telescope.builtin').find_files() end, { desc = 'Telescope find files' })
+vim.keymap.set('n', '<leader>fg', function() require('telescope.builtin').live_grep() end, { desc = 'Telescope live grep' })
+vim.keymap.set('n', '<leader>fb', function() require('telescope.builtin').buffers() end, { desc = 'Telescope buffers' })
+vim.keymap.set('n', '<leader>fh', function() require('telescope.builtin').help_tags() end, { desc = 'Telescope help tags' })
