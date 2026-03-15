@@ -13,5 +13,5 @@ vim.lsp.enable("rust_analyzer")
 vim.lsp.enable("yamlls")
 vim.lsp.enable("docker_language_server")
 vim.lsp.enable("terraformls")
-vim.lsp.enable("csharp_ls")
+vim.lsp.enable("omnisharp")
 -- NO SCALA HERE. I'm doing that with nvim-metals.
