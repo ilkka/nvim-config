@@ -39,7 +39,11 @@ vim.pack.add({
     -- which key does what?
     "https://github.com/folke/which-key.nvim",
     -- completion
-    "https://github.com/saghen/blink.cmp",
+    {
+        src = "https://github.com/saghen/blink.cmp",
+        -- TODO: remove this when upgraded to 2.x: https://github.com/saghen/blink.cmp/blob/main/UPGRADE.md
+        version = "1.*"
+    },
     -- optional snippets dependency for blink
     "https://github.com/rafamadriz/friendly-snippets",
     -- multicursor funtimes

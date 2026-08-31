@@ -15,4 +15,5 @@ vim.lsp.enable("pyright")
 vim.lsp.enable("docker_language_server")
 vim.lsp.enable("terraformls")
 vim.lsp.enable("omnisharp")
+vim.lsp.enable("ruff")
 -- NO SCALA HERE. I'm doing that with nvim-metals.
