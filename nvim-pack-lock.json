@@ -3,7 +3,7 @@
     "blink.cmp": {
       "rev": "cd79f572971c58784ca72551af29af3a63da9168",
       "src": "https://github.com/saghen/blink.cmp",
-      "version": "'1.*'"
+      "version": "'v1'"
     },
     "bufswi.nvim": {
       "rev": "6d0ec32f6d5df355fac0aa6f4ba07c0392d39c09",

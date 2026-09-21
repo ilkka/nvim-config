@@ -42,7 +42,7 @@ vim.pack.add({
     {
         src = "https://github.com/saghen/blink.cmp",
         -- TODO: remove this when upgraded to 2.x: https://github.com/saghen/blink.cmp/blob/main/UPGRADE.md
-        version = "1.*"
+        version = "v1"
     },
     -- optional snippets dependency for blink
     "https://github.com/rafamadriz/friendly-snippets",
